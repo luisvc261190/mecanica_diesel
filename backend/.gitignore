@@ -1,0 +1,25 @@
+# Entorno
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Almacenamiento local de archivos
+uploads/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
